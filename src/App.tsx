@@ -28,6 +28,7 @@ import ReviewsSection from "./components/ReviewsSection";
 import Facilities from "./components/Facilities";
 import MembershipPlans from "./components/MembershipPlans";
 import WhatsAppAutomator from "./components/WhatsAppAutomator";
+import gymBg from "./assets/images/transcend_gym.jpg";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<"overview" | "workouts" | "calculators" | "facilities" | "reviews">("overview");
@@ -125,10 +126,9 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/40 z-10" />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10" />
           <img
-            src="/src/assets/images/transcend_gym_hero_1783059663460.jpg"
-            alt="Transcend Gym Background"
-            className="w-full h-full object-cover opacity-60 filter grayscale-[20%]"
-            referrerPolicy="no-referrer"
+             src={gymBg}
+             alt="Transcend Gym Background"
+             className="w-full h-full object-cover opacity-60 filter grayscale-[20%]"
           />
         </div>
 
