@@ -1,0 +1,6 @@
+{
+  "name": "Transcend Health Fitness",
+  "description": "Official website for Transcend Health Fitness Center in Kathmandu, Kuleshwor. Features workout planner, BMI calculators, schedule explorer, and an interactive Gemini-powered AI Gym Coach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
